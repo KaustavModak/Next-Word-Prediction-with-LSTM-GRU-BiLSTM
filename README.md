@@ -193,16 +193,10 @@ streamlit run app.py
 
 ## 🧪 Future Improvements
 
-Add beam search for better predictions
+- Add beam search for better predictions
 
-Deploy on HuggingFace Spaces
+- Deploy on HuggingFace Spaces
 
-Add transformer-based models (GPT-2 / BERT)
+- Add transformer-based models (GPT-2 / BERT)
 
-Add temperature sampling for creative text generation
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
+- Add temperature sampling for creative text generation
