@@ -141,16 +141,6 @@ The app uses:
 
 Greedy decoding using argmax
 
-## 📦 Project Structure
-📁 Next-Word-Prediction/
-│
-├── next_word_lstm.h5
-├── next_word_gru.h5
-├── next_word_bilstm.h5
-├── tokenizer.pickle
-├── app.py                 # Streamlit App
-├── training_notebook.ipynb
-└── README.md
 
 ## 🛠️ Installation & Setup
 1. Clone the repository
