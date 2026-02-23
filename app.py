@@ -4,18 +4,18 @@ import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-model=load_model('next_word_lstm.h5')
+# model=load_model('next_word_lstm.h5')
 
 with open('tokenizer.pickle','rb') as handle:
     tokenizer=pickle.load(handle)
 
 def load_selected_model(choice):
     if choice == "LSTM":
-        return load_model("next_word_lstm.h5")
+        return load_model("next_word_lstm.keras", compile=False)
     elif choice == "GRU":
-        return load_model("next_word_gru.h5")
+        return load_model("next_word_gru.keras", compile=False)
     elif choice == "BiLSTM":
-        return load_model("next_word_bilstm.h5")
+        return load_model("next_word_bilstm.keras", compile=False)
 
 def predict_next_word(model,tokenizer,text,max_len,n):
     for i in range(n):
